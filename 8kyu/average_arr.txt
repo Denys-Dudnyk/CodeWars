@@ -1,0 +1,9 @@
+function findAverage(array) {
+  const n=0
+  const a=array.reduce((b,c)=>
+    b+c
+  ,0)
+  return a/ array.length
+
+  
+}
