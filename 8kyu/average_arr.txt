@@ -1,9 +1,15 @@
 function findAverage(array) {
-  const n=0
-  const a=array.reduce((b,c)=>
+
+  if(array.length==[]){
+     return 0
+  }else{
+    const a=array.reduce((b,c)=>
     b+c
   ,0)
-  return a/ array.length
+    return a/ array.length
+   
+  }
+  
 
   
 }
